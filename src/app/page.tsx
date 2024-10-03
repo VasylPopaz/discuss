@@ -4,7 +4,7 @@ import { Divider } from "@nextui-org/react";
 
 export default function Home() {
   return (
-    <div className="container mx-auto px-4 max-w-6xl">
+    <div className="wrapper">
       <div className="grid grid-cols-4 gap-4 p-4">
         <div className="col-span-3">
           {" "}
