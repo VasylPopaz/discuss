@@ -9,9 +9,9 @@ import {
   PopoverContent,
 } from "@nextui-org/react";
 import { useSession } from "next-auth/react";
+import { signOut as nextAuthSignOut } from "next-auth/react";
 
 import * as actions from "@/actions";
-import { signOut as nextAuthSignOut } from "next-auth/react";
 
 export const HeaderAuth = () => {
   const session = useSession();
